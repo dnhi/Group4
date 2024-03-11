@@ -1,0 +1,54 @@
+
+header img{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: antiquewhite;
+    font-size: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: red;
+}
+
+.active
+{
+    color: red;
+    background-color: rgb(152, 175, 195);
+}
+
+.about
+{
+    color: brown;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table
+{
+    margin: auto;
+}
+
+caption{
+    font-size: 20px;
+    color: green;
+    text-align: left;
+}
+
+footer{
+    background-color: rgb(232, 119, 119);
+    font-weight: bold;
+    text-align: center;
+}
